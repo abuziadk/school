@@ -60,7 +60,7 @@
         <hr>
     </footer>
 
-   <script>
+  <script>
         let foundPage = null;
         let pdfDoc = null;
 
@@ -141,7 +141,7 @@
 
                 const link = document.createElement('a');
                 link.href = URL.createObjectURL(blob);
-                link.download = الشهادة_${foundPage}.pdf;
+                link.download = `الشهادة_${foundPage}.pdf`;
                 link.click();
             }
         }
